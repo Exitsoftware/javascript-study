@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+<head>
+	<title>double_for_test_3</title>
+</head>
+<body>
+	<script>
+		var num = 1;
+		var t = "<table border=1>";
+
+		for(var i = 0; i < 5; i++){
+			t += "<tr>"
+			for(var j = 0; j < 5; j++){
+				t += "<td>" + num + "</td>"
+				num++;
+			}
+			t += "</tr>"
+		}
+		t += "</table>"
+		console.log(t);
+		document.write(t);
+	</script>
+</body>
+</html>
