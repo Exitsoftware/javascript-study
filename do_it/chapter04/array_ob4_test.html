@@ -1,0 +1,25 @@
+<!Doctype html>
+<html>
+<META charset="utf-8">
+<head>
+	<title>array_ob4_test</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var greenLine = ["사당", "교대", "방배", "강남"];
+		var yellowLine = ["미금", "정자", "모란", "수서"];
+
+		var twoLine = greenLine.concat(yellowLine);
+		document.write(twoLine,"<br>");
+
+		greenLine.push("삼성");
+		document.write(greenLine,"<br>");
+
+		greenLine.shift();
+		document.write(greenLine,"<br>");
+
+		greenLine.unshift("신도림");
+		document.write(greenLine,"<br>");
+	</script>
+</body>
+</html>
